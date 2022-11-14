@@ -572,7 +572,7 @@ img {
 
 .subscribe-input-block {
   background-color: var(--dark-background-color);
-  max-width: 358px;
+  width: 358px;
   padding-top: 15px;
   padding-bottom: 15px;
 
@@ -898,7 +898,7 @@ img {
 }
 .privacy-agreement {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 7px;
   color: var(--accent-color);
   text-underline-position: under;
 }
