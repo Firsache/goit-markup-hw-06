@@ -557,6 +557,7 @@ img {
 
 .subscribe-input {
   position: relative;
+  
 }
 
 .subscribe-input-email {
@@ -571,10 +572,10 @@ img {
 }
 
 .subscribe-input-block {
-  background-color: var(--dark-background-color);
+  background-color:  var(--dark-background-color);
+  color: var(--primary-white-color);
   width: 358px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 16px 15px 75px;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -582,23 +583,13 @@ img {
 
 .footer-subscribe-btn {
   min-width: 200px;
-  padding: 0px 28px;
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.button {
-}
-
-.subscribe-btn-text {
+  padding: 10px 28px;
   display: flex;
-  gap: 10px;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
-
   align-items: center;
   cursor: pointer;
+  gap: 10px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .subscribe-btn-icon {
@@ -883,9 +874,12 @@ img {
   justify-content: center;
 }
 .privacy-label span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 15px;
-  border: 1px solid #212121;
+  border: 2px solid #212121;
   border-radius: 2px;
   margin-right: 7px;
 }
