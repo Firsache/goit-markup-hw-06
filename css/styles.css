@@ -1,7 +1,7 @@
 :root {
   /* Fonts */
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
   /* Text colors */
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -148,7 +148,7 @@ img {
 }
 
 .link.current::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -206,7 +206,11 @@ img {
   text-align: center;
 
   background-color: var(--dark-background-color);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-hero.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -348,7 +352,8 @@ img {
   flex-basis: calc((100% - 3 * 30px) / 4);
 
   background-color: var(--primary-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -393,7 +398,8 @@ img {
   align-items: center;
   color: var(--icon-color);
 
-  transition: color var(--typical-hover-transition), background-color var(--typical-hover-transition);
+  transition: color var(--typical-hover-transition),
+    background-color var(--typical-hover-transition);
 }
 
 .team-soc-link:hover,
@@ -430,7 +436,8 @@ img {
   color: var(--icon-color);
   border: 1px solid var(--icon-color);
 
-  transition: color var(--typical-hover-transition), border-color var(--typical-hover-transition);
+  transition: color var(--typical-hover-transition),
+    border-color var(--typical-hover-transition);
 }
 .clients-icon {
   fill: currentColor;
@@ -557,7 +564,6 @@ img {
 
 .subscribe-input {
   position: relative;
-  
 }
 
 .subscribe-input-email {
@@ -572,7 +578,7 @@ img {
 }
 
 .subscribe-input-block {
-  background-color:  var(--dark-background-color);
+  background-color: var(--dark-background-color);
   color: var(--primary-white-color);
   width: 358px;
   padding: 15px 16px 15px 75px;
@@ -617,7 +623,8 @@ img {
   text-align: center;
   cursor: pointer;
 
-  transition: background-color var(--typical-hover-transition), color var(--typical-hover-transition),
+  transition: background-color var(--typical-hover-transition),
+    color var(--typical-hover-transition),
     box-shadow var(--typical-hover-transition);
 }
 .filter-button:hover,
@@ -626,7 +633,8 @@ img {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-list {
   display: flex;
@@ -653,7 +661,8 @@ img {
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-overlay-block {
   position: relative;
@@ -733,7 +742,8 @@ img {
   padding: 40px;
 
   background-color: var(--modal-background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
   transform: translate(-50%, -50%) scaleY(1);
