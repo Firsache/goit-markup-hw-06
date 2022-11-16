@@ -881,11 +881,12 @@ img {
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
+  background-origin: content-box;
   margin-right: 7px;
 }
 .input-check:checked + .privacy-label span {
   background-color: var(--accent-color);
-  border: transparent;
+  border-color: var(--accent-color);
 }
 .input-check:checked + .privacy-label .check-icon {
   fill: var(--primary-white-color);
