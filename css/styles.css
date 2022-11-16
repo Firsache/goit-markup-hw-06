@@ -566,11 +566,7 @@ img {
   position: relative;
 }
 
-.subscribe-input-email {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
+.subscribe-input-block::placeholder {
   color: var(--footer-text-color);
 
   font-size: 16px;
@@ -581,7 +577,7 @@ img {
   background-color: var(--dark-background-color);
   color: var(--primary-white-color);
   width: 358px;
-  padding: 15px 16px 15px 75px;
+  padding: 15px 16px;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
